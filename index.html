@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!--LA NAVBAR -->
+     <nav class="navbar">
+        <div class="nav-links">
+            <ul class="nav-menu">
+                <div class="test">
+                    
+                    <img src="media/youtube-logo-1-2.png" alt="" class="logoytb">
+                    <div class="logo"></div>
+                    <div class="firstblock">
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">Explorer</a></li>
+                        <li><a href="#">Short</a></li>
+                        <li><a href="#">Abonnement</a></li>
+                    </div>
+            
+                    <div class="secondblock">
+                        <li><a href="#">Bibliothèque</a></li>
+                        <li><a href="#">Historique</a></li>
+                        <li><a href="#">VosVidéos</a></li>
+                        <li><a href="#">Vidéo"J'aime"</a></li>
+                    </div>
+           
+                </div>
+            
+                
+            </ul>
+        </div>
+       <!--L'HAMBURGER-->
+    <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+         <!--LES ICONES DE L'HAMBURGER-->
+        <!--ICONE YTB-->
+        <img src="media/burger_menu-512 (1).webp" alt="menu-hamburger" class="menu-hamburger">
+        <!--ICONE MENU HAMBURGER-->
+
+    </div>
+        
+</body>
+<!--LE PROGRAMME POUR L'HAMBURGER-->
+<script>
+    const menuHamburger = document.querySelector(".menu-hamburger")
+       const navLinks = document.querySelector(".test")
+
+       menuHamburger.addEventListener('click',()=>{
+       navLinks.classList.toggle('mobile-menu')
+       })
+    
+</script>
+</html>
